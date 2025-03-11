@@ -5,13 +5,13 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute('alt',"Foto de homem de óculos escuro, sorrindo, usando jaqueta de couro preta, em um fundo azul")
+    img.setAttribute("src", "./assets/avatar-light1.png")
+    img.setAttribute('alt',"Foto de uma mulher no deserto de óculos de sol de lente marrom degradê, com turbante verde, sorrindo.")
   } else {
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar1.png")
     img.setAttribute(
       "alt",
-      "Foto de homem de barba e óculos, usando camisa preta, sorrindo em um fundo amarelo"
+      "Foto de mulher de cabelos pretos presos pra trás, com a franja solta dividida ao meio, sorrindo"
     )
   }
 }
